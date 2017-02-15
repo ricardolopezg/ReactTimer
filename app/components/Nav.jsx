@@ -11,17 +11,17 @@ var Nav = (props) => {
             React Timer App
           </li>
           <li>
-            <IndexLink to="/" activeClassName="active">Timer</IndexLink>
+            <IndexLink to="/" activeClassName="active-link">Timer</IndexLink>
           </li>
           <li>
-            <Link to="/Countdown" activeClassName="active">Countdown</Link>
+            <Link to="/Countdown" activeClassName="active-link">Countdown</Link>
           </li>
         </ul>
       </div>
       <div className="top-bar-right">
         <ul className="menu">
-          <li className="menu">
-            Created by: <a href="https://github.com/ricardolopezg" target="_blank">Ricardo Lopez</a>
+          <li className="menu-text">
+            Created by: <a href="https://github.com/ricardolopezg" target="_blank">Ricardo</a>
           </li>
         </ul>
       </div>
